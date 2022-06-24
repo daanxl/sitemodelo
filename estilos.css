@@ -1,0 +1,235 @@
+.logo{
+    width: 170px; /* altura */
+    height: 170px; /* largura */
+    border: 5px solid #6b705c; /* borda */
+    background-color: white; /* cor de fundo */
+    border-radius: 100px; /* imagem oval */
+}
+
+.cabecalho{
+    background-image: url("imagens/reader.png");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    width: 1440px;
+    margin-top: 0;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 0;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 22px;
+}
+
+body{
+    margin: 0;
+}
+.nome-loja{
+    margin: 0;
+    font-size: 50px;
+    color: black;
+    line-height: 80%; /* altura entre os texto */
+}
+.texto-pequeno{
+    font-size: 28px;
+}
+.menu{
+    margin: 0;
+    color: #ffe8d6;
+    text-align: center;
+    background-color: #f5ac72;
+    width: 1440px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 19px;
+    padding-bottom: 19px;
+}
+.item-menu{
+    color: #ffe8d6;
+    font-size: 18px;
+    font-weight: 500;
+}
+.banner{
+    width: 1440px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 5px solid #f5ac72;
+}
+.foto-banner{
+    width: 1440px;
+    height: 445px;
+    object-fit: cover;
+}
+.titulo-cardapio{
+    color: #d8bd7f;
+    font-size: 45px;
+    text-align: center;
+
+}
+.cardapio{
+    width: 1440px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0px;
+    padding-bottom: 19px;
+    color: #6b705c;
+    size: 18px;
+    font-weight: 400;
+}
+.texto-colunas{
+    width: 1440px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0px;
+    padding-bottom: 19px;
+    column-count: 4; /* divide o texto em colunas */
+}
+.fotos{
+    background-color: #f5ac72;
+    width: 1440px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0px;
+    padding-bottom: 19px;
+    color: #6b705c;
+    size: 18px;
+    font-weight: 400;
+    text-align: center;
+}
+.titulo-fotos{
+    font-weight: 100;
+    color: #ffe8d6;
+    text-align: center;
+    font-size: 45px;
+}
+.foto-bolos{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border: 5px solid #b7b7a4;
+}
+.foto-meio{
+    margin-right: 113px;
+    margin-left: 113px;
+}
+.titulo-contato{
+    color: #cb997e;
+    text-align: center;
+    font-size: 45px;
+}
+.localizacao{
+    width: 1440px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0px;
+    text-align: center;
+}
+.mapa{
+    margin-bottom: 20px;
+    border: 3px solid #b7b7a4;
+}
+.linha{
+    border: 3px solid #cb997e;
+    width: 1440px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 0px;
+}
+.rodape{
+    text-align: center;
+    width: 1440px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 0px;
+}
+.redes-sociais1{
+    height: 28px;
+    width: 28px;
+    object-fit: cover;
+    margin-right: 8px;
+    margin-left: 8px;
+    padding-top: 19px;
+}
+.redes-sociais2{
+    margin-top: 8px;
+    height: 28px;
+    width: 28px;
+    object-fit: cover;
+    margin-right: 8px;
+    margin-left: 8px;
+    padding-top: 19px;
+}
+form{
+    background-color: #999;
+    margin: 30px 0;
+    padding: 20px;
+    border-radius: 0 15px;
+}
+label{
+    display: block;
+    margin-top: 7px;
+    float: left;
+    width: 60px;
+}
+input[type="submit"]{
+    background-color: #c0262c;
+    background: linear-gradient(to bottom, #6b1516 0%, #c0262c 30%, #c0262c 70%, #6b1516 100%);
+    border: none;
+    border-radius: 30px;
+    font-size: 1.2em;
+    color: #fff;
+    padding: 10px 30px;
+    margin: 20px 0;
+    text-shadow: 2px 2px 5px #000;
+    cursor: pointer;
+}
+#bolos fieldset{
+    background-color: #fff;
+    border: none;
+    border-radius: 0 15px;
+    margin-bottom: 20px;
+}
+#bolos fieldset legend{
+    background-color: #c0265c;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: .05em;
+    padding: 10px;
+    margin-left: -13px;
+}
+#bolos fieldset label{
+    display: block;
+    margin-top: 7px;
+    float: left;
+    width: 115px;
+}
+#bolos fieldset input[type="text"],
+#bolos fieldset input[type="email"]{
+    border: none;
+    border-bottom: #000 solid 1px;
+    font-size: 1.2em;
+    color: #000;
+    width: 770px;
+}
+
+#bolos fieldset textarea{
+    width: 770px;
+    height: 100px;
+    font-size: 1.2em;
+    border: #000 solid 1px;
+}
+#bolos fieldset label.labelsimples{
+    display: inline;
+    float: none;
+}
+.formulario{
+    background-color: #fff;
+    width: 1440px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0px;
+    padding-bottom: 19px;
+    color: #6b705c;
+    font-weight: 400;
+    text-align: left;
+}

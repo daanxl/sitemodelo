@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja de Bolos da Cida</title>
+    <link rel="shortcut icon" href="imagens/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body id="bolos">
+   <header class="cabecalho">
+    <img src="imagens/logo.png" class="logo" alt="Bolo da Cida">
+    <h1 class="nome-loja">
+       <small class="texto-pequeno">Bolos da</small>
+       <br>Cida</h1>
+   </header> 
+   <nav class="menu">
+      <a href="cardapio.html" class="item-menu">CARDÁPIO</a> -
+      <a href="fotos.html" class="item-menu">FOTOS</a> -
+      <a href="index.html" class="item-menu">HOME</a> 
+   </nav>
+   <div class="formulario">
+   <h1>Agendamento para encomenda</h1>
+   <h2>Faça seu agendamento com pelo menos 48h de antecedência</h2>
+   <form method="post" id="agendamento" action="#">
+   <fieldset id="cliente"> Identidade do Cliente</legend>
+   <p><label for="nome">Nome:</label><input type="text" name="nome" id="nome" size="60" maxlength="100" placeholder="Digite seu nome completo"></p>
+   <p><label for="endereco">Endereço:</label><input type="text" name="endereco" id="endereco" size="80" maxlength="60" placeholder="Digite seu endereço"></p>
+   <p><label for="cep">CEP:</label><input type="text" name="cep" id="cep" size="10" maxlength="9" placeholder="Digite seu Cep"></p>
+   <p><label for="email">E-Mail:</label><input type="email" name="email" id="email" size="80" maxlength="60" placeholder="Digite seu E-Mail"></p>
+   <p><label for="celular">Celular:</label><input type="text" name="celular" id="celular" size="14" maxlength="14" placeholder="(19)99999-9999"></p>
+   </fieldset>
+   <fieldset id="doces"><legend>Doces</legend>
+   <p><label for="doce">Doce:</label><input type="text" name="doce" id="doce" size="60" maxlength="100" placeholder="Digite o doce escolhido"></p>
+   <p>Tamanho:
+      <input type="radio" name="portedoce" id="portedoce" value="docepequeno" checked><label for="docepequeno" class="labelsimples">Pequeno</label>
+      <input type="radio" name="portedoce" id="portedoce" value="docemedio" checked><label for="docemedio" class="labelsimples">Médio</label>
+      <input type="radio" name="portedoce" id="portedoce" value="docegrande" checked><label for="docegrande" class="labelsimples">Grande</label>
+   </p>
+   <p>Observações:
+      <textarea name="obs" id="obs" placeholder="Digite alguma observação sobre seu pedido"></textarea>
+   </p>
+</fieldset>
+<fieldset id="horario">
+   <legend>Após o agendamento não será possível alterar o pedido</legend>
+   <p>Indique os dias da semana de sua preferência:<br>
+      <input type="checkbox" name="semana" value="idsegunda" /> <label for="idsegunda" class="labelsimples">Segunda-Feira</label>
+      <input type="checkbox" name="semana" value="idterca" /> <label for="idterca" class="labelsimples">Terça-Feira</label>
+      <input type="checkbox" name="semana" value="idquarta" /> <label for="idquarta" class="labelsimples">Quarta-Feira</label>
+      <input type="checkbox" name="semana" value="idquinta" /> <label for="idquinta" class="labelsimples">Quinta-Feira</label>
+      <input type="checkbox" name="semana" value="idsexta" /> <label for="idsexta" class="labelsimples">Sexta-Feira</label>
+      <input type="checkbox" name="semana" value="idsabado" /> <label for="idsabado" class="labelsimples">Sábado</label>
+      <input type="checkbox" name="semana" value="iddomingo" /> <label for="iddomingo" class="labelsimples">Domingo</label>
+   </p>
+   <p>Escolha opção de Data de Retirada: <input type="date" name="data" id="data"></p>
+</fieldset>
+<input type="submit" value="Enviar">
+   </form>
+   </div>
+   <hr class="linha">
+   <div class="rodape">
+      <h1 class="nome-loja">
+      <small class="texto-pequeno">Bolos da</small>
+      <br> Cida
+      </h1>
+      <img src="imagens/instagram.png" alt="Instagram" class="redes-sociais1">
+      <img src="imagens/facebook.png" alt="Facebook" class="redes-sociais2">
+   </div>
+</body>
+</html>
